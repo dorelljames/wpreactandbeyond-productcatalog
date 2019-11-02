@@ -36,6 +36,10 @@
   height: 100%;
 }
 
+.productList .loading {
+  color: #fff;
+}
+
 figure.product {
   font-family: "Raleway", Arial, sans-serif;
   position: relative;
