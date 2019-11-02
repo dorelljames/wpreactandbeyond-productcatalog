@@ -3,7 +3,8 @@ import "./App.css";
 
 function App() {
   return (
-    <React.Fragment>
+    <div className="productCatalog">
+      <h2>WP React and Beyond Catalog</h2>
       <div className="productSearch">
         <input type="text" placeholder="Search for a product" />
       </div>
@@ -55,7 +56,7 @@ function App() {
           </figcaption>
         </figure>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 
