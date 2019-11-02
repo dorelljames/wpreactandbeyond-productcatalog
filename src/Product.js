@@ -7,7 +7,7 @@ function Product({ imgSrc, name, description, link, price, color = "black" }) {
       <div className="price">{price}</div>
       <figcaption>
         <h3>{name}</h3>
-        <p dangerouslySetInnerHTML={{ __html: description }} />
+        <div dangerouslySetInnerHTML={{ __html: description }} />
         <a href={link}>View Product</a>
       </figcaption>
     </figure>
