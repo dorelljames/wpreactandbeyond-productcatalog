@@ -9,7 +9,7 @@ import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "@apollo/react-hooks";
 
 const client = new ApolloClient({
-  uri: "http://wp-reactandbeyond.localhost/graphql"
+  uri: "https://dev.eternusglobal.com/react/graphql"
 });
 
 ReactDOM.render(
