@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Product({ imgSrc, name, description, link, price, color = "black" }) {
   return (
@@ -8,7 +9,7 @@ function Product({ imgSrc, name, description, link, price, color = "black" }) {
       <figcaption>
         <h3>{name}</h3>
         <div dangerouslySetInnerHTML={{ __html: description }} />
-        <a href={link}>View Product</a>
+        <Link to={link}>View Product</Link>
       </figcaption>
     </figure>
   );
