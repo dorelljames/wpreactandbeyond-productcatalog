@@ -287,9 +287,9 @@ function App() {
                 <input type="text" placeholder="Search for a product" />
             </div>
             <div className="productList">
-                {/** We used our Product Component below and specified props - imageSrc, imageAlt, price, name, description, link **/}
+                {/** We used our Product Component below and specified props - imgSrc, imageAlt, price, name, description, link **/}
                 <Product
-                    imageSrc="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg"
+                    imgSrc="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg"
                     imageAlt="sample47"
                     price="$19.00"
                     name="Wool Hat"
@@ -297,7 +297,7 @@ function App() {
                     link="/product/wool-hat"
                 />
                 <Product
-                    imageSrc="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg"
+                    imgSrc="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg"
                     imageAlt="sample71"
                     price="$19.00"
                     name="Denim Shirt"
@@ -305,7 +305,7 @@ function App() {
                     link="/product/denim-shirt"
                 />
                 <Product
-                    imageSrc="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample52.jpg"
+                    imgSrc="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample52.jpg"
                     imageAlt="sample52"
                     price="$19.00"
                     name="Wax Jacket"
@@ -360,11 +360,11 @@ or `email` for email addresses or `password` for sensitive data.
 
 Now, in React, we could create our custom properties (`props`) or attributes as you probably know it and pass it down as data to make our Components flexible.
 
-And we use our Product Component below and specified props - imageSrc, imageAlt, price, name, description, link
+And we use our Product Component below and specified props - imgSrc, imageAlt, price, name, description, link
 
 ```jsx
 <Product
-    imageSrc="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg"
+    imgSrc="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg"
     imageAlt="sample47"
     price="$19.00"
     name="Wool Hat"
